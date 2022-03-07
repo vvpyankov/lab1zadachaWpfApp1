@@ -1,0 +1,39 @@
+﻿<Window x:Class="lab1zadachaWpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab1zadachaWpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+    <Grid x:Name="КАЛЬКУЛЯТОР" Height="675" Width="500">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF081B82"/>
+                <GradientStop Color="#FF902424" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="1" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="50,250,0,0" Background="#FF1A3E79"/>
+        <Button Content="2" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="150,250,0,0" Background="#FF1A3E79"/>
+        <Button Content="3" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="250,250,0,0" Background="#FF1A3E79"/>
+        <Button Content="+" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="375,250,0,0" Background="#FF883873"/>
+        <Button Content="4" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="50,350,0,0" Background="#FF1A3E79"/>
+        <Button Content="5" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="150,350,0,0" Background="#FF1A3E79"/>
+        <Button Content="6" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="250,350,0,0" Background="#FF1A3E79"/>
+        <Button Content="-" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="375,350,0,0" Background="#FF883873"/>
+        <Button Content="7" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="50,450,0,0" Background="#FF1A3E79"/>
+        <Button Content="8" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="150,450,0,0" Background="#FF1A3E79"/>
+        <Button Content="9" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="250,450,0,0" Background="#FF1A3E79"/>
+        <Button Content="*" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="375,450,0,0" Background="#FF883873"/>
+        <Button Content="0" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="50,550,0,0" Background="#FF1A3E79"/>
+        <Button Content="," FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="150,550,0,0" Background="#FF1A3E79"/>
+        <Button Content="=" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="250,550,0,0" Background="#FFE01515"/>
+        <Button Content="/" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Height="85" Margin="375,550,0,0" Background="#FF883873"/>
+        <TextBlock TextWrapping="Wrap" Text="TextBlock" Width="400" Height="170" Margin="50,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" Foreground="#FFB4B4B4">
+            <TextBlock.Background>
+                <ImageBrush ImageSource="/0 (1).jpg"/>
+            </TextBlock.Background>
+        </TextBlock>
+
+    </Grid>
+</Window>
